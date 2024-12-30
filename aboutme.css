@@ -1,0 +1,142 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  body {
+    color: #1d1d1d;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    cursor: url(images/cursors/select.png), auto;
+  }
+  
+  h3 {
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    color: #2a915c;
+    font-size: 1.75rem;
+    margin: 10px 0;
+  }
+  
+  h1,
+  h2 {
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    color: #2a915c;
+    font-size: 2.5rem;
+    text-shadow: #1d1d1d;
+  }
+  
+  p {
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+  a{
+    text-decoration-color: #2a915c81;
+    color:#1d1d1d;
+    cursor: url(images/cursors/hand.png), auto;
+  }
+  ul{
+    padding-left: 3rem;
+    list-style-type: square;
+  }
+  header {
+    display: flex;
+    background-color: #1d1d1d;
+    padding: 0.8rem;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    font-weight: 800;
+    justify-content: center;
+  }
+  
+.box{
+    position: relative;
+    margin: 1.5rem;
+    padding: 1rem;
+    border-right: #b6b6b683 0.5px solid;
+    border-top: #b6b6b683 0.5px solid;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+
+}
+#box1image{
+
+    width:20rem;
+    height:25rem;
+    position: absolute;
+    right:4rem;
+    top:1rem;
+    opacity: 0.04;
+}
+.pdf{
+    padding-block: 2rem;
+    display:flex;
+    justify-content: center;
+    max-width: 100%;
+}
+.pdffile{
+    width:100%;
+    height: 40rem;
+    max-width: 9in;
+}
+
+#fixribbon{
+    display: flex;
+    position:fixed;
+    right:0.5rem;
+    bottom:0.5rem;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(187, 187, 187, 0.637);
+    border-radius: 8px;
+    box-shadow:0px 0px 14px #5050506b;
+
+}
+.fixribbonbtn{
+    background-color: white;
+    border: 0.5px solid rgba(187, 187, 187, 0.637);
+    height:1.5rem;
+    width: 1.5rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 5px;
+}
+
+footer {
+    background-color: #1d1d1d;
+    color: #e0e0e0;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+  }
+  #ur {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2a915c;
+    font-weight: 900;
+    margin: 3px;
+  }
+
+#home{
+    background-image: url(images/icons/animatedicons/home.png);
+}
+#home:hover{
+    background-image: url(images/icons/animatedicons/home.gif);
+}
+#aboutMe{
+    background-image: url(images/icons/animatedicons/me.png);
+}
+#aboutMe:hover{
+    background-image: url(images/icons/animatedicons/me.gif);
+}
+#projects{
+    background-image: url(images/icons/animatedicons/projects.png);
+}
+#projects:hover{
+    background-image: url(images/icons/animatedicons/projects.gif);
+}
+#contact{
+    background-image: url(images/icons/animatedicons/contact.png);
+}
+#contact:hover{
+    background-image: url(images/icons/animatedicons/contact.gif);
+}

@@ -1,0 +1,55 @@
+.fixbtn{
+  font-size:30px;
+  z-index: 1000;
+  position:fixed;
+  bottom:10px;
+  right:10px;
+  height: 25px;
+  width:55px;
+  padding: 0.5rem 1rem;
+  background-color: #ffffff;
+  font-weight: 500;
+  border: #2a915c 2px solid;
+  border-radius: 0px;
+  box-shadow: 1px 1px 10px #111111a1;
+  transition: 0.35s;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.fixbtn h3{
+    color: transparent;
+}
+
+
+.fixbtn::after{
+  content: "Hire Me";
+  word-spacing: 3px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 800;
+  font-size: 1rem;
+  color: #2a915c;
+  display: flex;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  transition: 0.35s;
+  transition: backcground 0s ;
+}
+
+.fixbtn:hover{
+    width:350px;
+    height:300px;
+}
+.fixbtn:hover::after{ 
+    z-index: -1200;
+    content: '';
+    background: transparent;
+}
+.fixbtn:hover h3{
+    color: #2a915c;
+}

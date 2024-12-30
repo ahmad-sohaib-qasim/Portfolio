@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ERROR</title>
+
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 0;
+        overflow: hidden;
+      }
+      .error {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 5rem;
+        padding-left: 10rem;
+        font-size: 1.5rem;
+        height: 100%;
+      }
+      .err {
+        font-weight: 100;
+        font-size: 2rem;
+      }
+      .err span {
+        font-weight: 400;
+        font-size: 3rem;
+        color: rgba(255, 0, 0, 0.849);
+      }
+
+      .working {
+        font-size: 3rem;
+        margin-top: 1.2rem;
+      }
+      .upload-soon {
+        font-size: 1rem;
+        color: rgb(32, 32, 32);
+      }
+
+      .img {
+        height: 20rem;
+        width: 20rem;
+        border: 0.01rem solid rgba(0, 0, 0, 0.123);
+        overflow: hidden;
+        margin: 10rem;
+        margin-top: 1rem;
+        display: flex;
+        justify-content: center;
+      }
+      .img img {
+        width: 110%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="error">
+      <p class="err">Erorr-<span>404</span></p>
+      <p class="working">We are working on it...</p>
+      <q class="upload-soon">Page will be uploaded soon</q>
+    </div>
+
+    <div class="img">
+      <img
+        src="404.gif"
+        alt="image not loaded"
+        title="error-404"
+      />
+    </div>
+  </body>
+</html>

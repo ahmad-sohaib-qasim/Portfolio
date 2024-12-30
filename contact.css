@@ -1,0 +1,225 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:#EAEAEA;
+}
+h2{
+  align-self: flex-start;
+  margin: 2rem;
+}
+
+header {
+    display: flex;
+    background-color: #1d1d1d;
+    padding: 0.8rem;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    font-weight: 500;
+    justify-content: center;
+    color: #2a915c;
+  
+  }
+  form {  
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background: #EAEAEA;  
+    padding: 20px;  
+    border-radius: 4px;  
+    max-width:100%; 
+    align-items: center; 
+}  
+
+input, textarea {  
+    width: 100%;  
+    padding: 10px;  
+    margin-bottom: 10px;  
+}  
+
+button {  
+  max-width: max-content;
+    background: #2a915c;  
+    color: white;  
+    border: none;  
+    padding: 10px 15px;  
+    cursor: pointer;  
+    border-radius: 4px;  
+}  
+
+
+
+footer {
+    background-color: #1d1d1d;
+    color: #e0e0e0;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    margin-top: 2rem;
+  }
+#ur {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2a915c;
+    font-weight: 900;
+    margin: 3px;
+  }
+
+
+  .iconrow {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: max-content;
+    margin: 2rem;
+    align-items: center;
+    box-shadow: 0 0 8px rgba(77, 77, 77, 0.575) inset;
+    padding: 0.5rem;
+    background-color: white;
+  
+  }
+  
+  .icons {
+    min-width: 3rem;
+    min-height: 3rem;
+    max-width: 3rem;
+    max-height: 3rem;
+    margin-inline: 0.5rem;
+    background-size: cover;
+    margin-block: 0;
+    margin-inline: 1rem;
+    cursor: url(images/cursors/hand.png), auto;
+  }
+
+
+  #linkedin {
+    background-image: url(images/icons/Social_Media/linkedin.png);
+  }
+  
+  #linkedin:hover {
+    background-image: url(images/icons/Social_Media/linkedin.gif);
+  }
+  
+  #facebook {
+    background-image: url(images/icons/Social_Media/facebook.png);
+  }
+  
+  #facebook:hover {
+    background-image: url(images/icons/Social_Media/facebook.gif);
+  }
+  
+  #pinterest {
+    background-image: url(images/icons/Social_Media/pinterest.png);
+  }
+  
+  #pinterest:hover {
+    background-image: url(images/icons/Social_Media/pinterest.gif);
+  }
+  
+  #telegram {
+    background-image: url(images/icons/Social_Media/telegram.png);
+  }
+  
+  #telegram:hover {
+    background-image: url(images/icons/Social_Media/telegram.gif);
+  }
+  
+  #whatsapp {
+    background-image: url(images/icons/Social_Media/whatsapp.png);
+  }
+  
+  #whatsapp:hover {
+    background-image: url(images/icons/Social_Media/whatsapp.gif);
+  }
+  
+  /* --------------------------------------------------Icons Animation row B----------------------------------------------------------- */
+  #skype {
+    background-image: url(images/icons/Social_Media/skype.png);
+  }
+  
+  #skype:hover {
+    background-image: url(images/icons/Social_Media/skype.gif);
+  }
+  
+  #instagram {
+    background-image: url(images/icons/Social_Media/instagram.png);
+  }
+  
+  #instagram:hover {
+    background-image: url(images/icons/Social_Media/instagram.gif);
+  }
+  
+  #twitter {
+    background-image: url(images/icons/Social_Media/twitter.png);
+  }
+  
+  #twitter:hover {
+    background-image: url(images/icons/Social_Media/twitter.gif);
+  }
+  
+  #email {
+    background-image: url(images/icons/Social_Media/gmail.png);
+  }
+  
+  #email:hover {
+    background-image: url(images/icons/Social_Media/gmail.gif);
+  }
+  
+  
+  #upwork {
+    background-image: url(images/icons/Social_Media/Github.png);
+  }
+  
+  #upwork:hover {
+    background-image: url(images/icons/Social_Media/Github.gif);
+  }
+
+
+  #fixribbon{
+    display: flex;
+    position:fixed;
+    right:0.5rem;
+    bottom:0.5rem;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(187, 187, 187, 0.637);
+    border-radius: 8px;
+    box-shadow:0px 0px 14px #5050506b;
+
+}
+.fixribbonbtn{
+    background-color: white;
+    border: 0.5px solid rgba(187, 187, 187, 0.637);
+    height:1.5rem;
+    width: 1.5rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 5px;
+}
+#home{
+    background-image: url(images/icons/animatedicons/home.png);
+}
+#home:hover{
+    background-image: url(images/icons/animatedicons/home.gif);
+}
+#aboutMe{
+    background-image: url(images/icons/animatedicons/me.png);
+}
+#aboutMe:hover{
+    background-image: url(images/icons/animatedicons/me.gif);
+}
+#projects{
+    background-image: url(images/icons/animatedicons/projects.png);
+}
+#projects:hover{
+    background-image: url(images/icons/animatedicons/projects.gif);
+}
+#contact{
+    background-image: url(images/icons/animatedicons/contact.png);
+}
+#contact:hover{
+    background-image: url(images/icons/animatedicons/contact.gif);
+}
+
+
+
+
